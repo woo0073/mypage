@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MyImage from "./myImage";
+import MyProfile from "./myProfile";
 import MyContainers from "./myContainers";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -11,7 +11,7 @@ class MainPage extends Component {
       <Container style={this.styles}>
         <Row>
           <Col xs lg="3">
-            <MyImage />
+            <MyProfile />
           </Col>
           <Col xs lg={true}>
             <MyContainers />
